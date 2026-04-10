@@ -1,0 +1,15 @@
+numpy
+PyQt5
+live2d-py
+requests
+sounddevice
+soundfile
+toml
+pillow
+websocket-client
+fastapi
+pydantic
+uvicorn
+fastapi
+pydantic
+uvicorn

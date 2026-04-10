@@ -1,0 +1,120 @@
+user_name = "主播"
+character_toml = "Character\\拉菲\\拉菲.toml"
+load_model = false
+device = "cpu"
+context_length = 10000
+save_memory_steps = 4
+embedding = "BAAI/bge-small-zh-v1.5"
+memory_entity_top_k = 5
+memory_entity_similarity_threshold = 0.1
+memory_relationships_top_k = 10
+memory_relationships_similarity_threshold = 0.5
+memory_temporal_top_k = 5
+memory_temporal_similarity_threshold = 0.5
+niutrans_app_id = ""
+niutrans_api_key = ""
+baidu_api_key = ""
+baidu_secret_key = ""
+your_voices = []
+verifier_threshold = 0.2
+aggressiveness = 3
+shot_word = [ "看", "屏幕", "画面", "图",]
+hot_word = "{}"
+gsv_api2 = "http://127.0.0.1:9880/tts"
+kokoro_api = "http://127.0.0.1:8880/v1"
+rvc_url = "http://127.0.0.1:7897"
+cut_length = 5
+cut_sleep = 0.5
+input_box = false
+always_screenshot = false
+initiative_wait_range = "none"
+exp_fadeout = 3
+controller_host = "127.0.0.1"
+controller_port = 19098
+local_tts_voice = "Microsoft Huihui Desktop"
+local_tts_rate = 0
+local_tts_volume = 100
+
+[other_voices]
+
+[required]
+provider = "openrouter"
+chat_model = "auto"
+auto_detect_model = true
+model_purpose = "required"
+temperature = 0.7
+top_p = 0.8
+max_tokens = 16384
+max_pixels = 501760
+provider_type = "openai"
+base_url = "https://openrouter.ai/api/v1"
+
+[auxiliary]
+provider = "ollama"
+chat_model = "auto"
+auto_detect_model = true
+model_purpose = "auxiliary"
+provider_type = "ollama"
+base_url = "http://127.0.0.1:11434"
+
+[modelscope]
+base_url = "https://api-inference.modelscope.cn/v1/"
+api_key = ""
+www_bing_cookie = ""
+cn_bing_cookie = ""
+search_max_context = 30000
+search_pages = 2
+headless = false
+has_proxy = false
+agent_event = false
+port = 9998
+
+[weblive2d]
+enable = false
+volume = 1.0
+max_rms_scale = 4e-5
+subtitle_duration = 5000
+background = "assets/bg/bg.jpg"
+background_width = 1920
+background_height = 1080
+port = 9999
+
+[sing]
+volume = 0.7
+max_rms_scale = 0.2
+pitch_threshold = 260
+
+[sts2_streamer]
+api_base_url = "http://127.0.0.1:8080"
+game_exe_path = "F:\\SteamLibrary\\steamapps\\common\\Slay the Spire 2\\SlayTheSpire2.exe"
+auto_launch_game = true
+auto_install_mod = true
+enable_debug_actions = false
+resume_existing_run = true
+auto_play = true
+auto_commentary = true
+poll_interval_seconds = 0.8
+action_cooldown_seconds = 1.0
+commentary_cooldown_seconds = 4.0
+room_reply_cooldown_seconds = 12.0
+bilibili_reply_probability = 0.35
+bilibili_enabled = false
+bilibili_room_id = 0
+bilibili_max_queue = 20
+preferred_character_index = 0
+preferred_character_name = "IRONCLAD"
+tts_backend = "edge"
+default_voice = "zh-CN-XiaoxiaoNeural"
+speech_rate = 1
+speech_volume = 100
+llm_enabled = true
+llm_use_for_actions = true
+llm_use_for_commentary = true
+llm_use_for_danmaku = true
+llm_use_for_action_commentary = true
+llm_use_for_action_followup = true
+controller_host = "127.0.0.1"
+controller_port = 19098
+welcome_line = "直播模式已连接，准备开始爬塔。"
+sts2_project_root = "..\\STS2-Agent-main"
+mod_source_dir = "..\\STS2-Agent-main\\build\\mods\\STS2AIAgent"

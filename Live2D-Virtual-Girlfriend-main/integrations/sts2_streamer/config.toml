@@ -1,0 +1,27 @@
+[game]
+base_url = "http://127.0.0.1:8080"
+poll_interval_seconds = 0.5
+
+[avatar]
+base_url = "http://127.0.0.1:19098"
+commentary_cooldown_seconds = 4.0
+
+[autoplay]
+enabled = true
+action_interval_seconds = 0.8
+
+[startup]
+auto_start_game = false
+game_exe = "F:\\SteamLibrary\\steamapps\\common\\Slay the Spire 2\\SlayTheSpire2.exe"
+start_game_script = "F:\\codex\\workspace\\STS2-Agent-main\\scripts\\start-game-session.ps1"
+
+[bilibili]
+enabled = false
+room_id = 0
+sessdata = ""
+buvid3 = ""
+
+[llm]
+base_url = ""
+api_key = ""
+model = ""

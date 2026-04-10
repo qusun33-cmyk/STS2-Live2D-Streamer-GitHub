@@ -1,0 +1,16 @@
+edge-tts
+fastapi
+live2d-py
+numpy
+openai
+pillow
+pydantic
+pydub
+PyQt5
+requests
+sounddevice
+soundfile
+toml
+uvicorn
+blivedm
+websocket-client

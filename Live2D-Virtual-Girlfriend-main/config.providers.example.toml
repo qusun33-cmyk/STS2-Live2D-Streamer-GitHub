@@ -1,0 +1,104 @@
+user_name = "主播"
+character_toml = "Character\\拉菲\\拉菲.toml"
+load_model = true
+
+["required"]
+provider = "openrouter"
+chat_model = "auto"
+auto_detect_model = true
+model_purpose = "required"
+temperature = 0.7
+top_p = 0.8
+max_tokens = 16384
+max_pixels = 501760
+
+["auxiliary"]
+provider = "ollama"
+chat_model = "auto"
+auto_detect_model = true
+model_purpose = "auxiliary"
+
+["providers.openai"]
+api_key = ""
+
+["providers.openrouter"]
+api_key = ""
+
+["providers.deepseek"]
+api_key = ""
+
+["providers.groq"]
+api_key = ""
+
+["providers.siliconflow"]
+api_key = ""
+
+["providers.dashscope"]
+api_key = ""
+
+["providers.volcengine"]
+api_key = ""
+
+["providers.zhipu"]
+api_key = ""
+
+["providers.zhipu_coding_plan"]
+api_key = ""
+
+["providers.baidu_qianfan"]
+api_key = ""
+
+["providers.minimax"]
+api_key = ""
+
+["providers.stepfun"]
+api_key = ""
+
+["providers.stepfun_plan"]
+api_key = ""
+
+["providers.moonshot"]
+api_key = ""
+
+["providers.baichuan"]
+api_key = ""
+
+["providers.lingyiwanwu"]
+api_key = ""
+
+["providers.tencent_hunyuan"]
+api_key = ""
+
+["providers.modelscope"]
+api_key = ""
+
+["providers.together"]
+api_key = ""
+
+["providers.mistral"]
+api_key = ""
+
+["providers.fireworks"]
+api_key = ""
+
+["providers.xai"]
+api_key = ""
+
+["providers.github_models"]
+api_key = ""
+
+["providers.azure_openai"]
+base_url = "https://YOUR-RESOURCE.openai.azure.com/openai/deployments/YOUR-DEPLOYMENT"
+api_key = ""
+
+["providers.ollama"]
+base_url = "http://127.0.0.1:11434"
+
+["providers.custom_openai"]
+base_url = "https://your-openai-compatible-endpoint/v1"
+api_key = ""
+
+["providers.my_vendor"]
+provider_type = "openai"
+base_url = "https://your-openai-compatible-endpoint/v1"
+api_key = ""
